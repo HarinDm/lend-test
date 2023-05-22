@@ -1,0 +1,673 @@
+/*header*/
+.header
+    &-inner
+        +row-flex
+        +size(12)
+        align-items: center
+        justify-content: space-between
+        height: 110px
+        background: rgba(18, 1, 39, 0.6)
+    &__img
+        width: 75px
+        height: 68px
+    &__logo
+        display: flex
+        align-items: center
+
+.page__link
+    text-decoration: none
+    color: white
+
+.page__btn     
+    background: transparent
+    border: none
+    color: white
+
+.logo__name
+    font-weight: 700
+    font-size: 30px
+    margin-left: 13px
+    text-transform: uppercase
+
+.menu__nav 
+    display: flex
+    justify-content: space-between
+    +size(5)
+
+.menu__btn
+    font-weight: 700
+    font-size: 22px
+
+.signup__btn
+    width: 218px
+    height: 54px
+    color: black
+    background: #FFD262
+    border-radius: 10px
+    border: none
+
+
+
+.banner
+    margin-top: 100px
+    &-inner
+        display: flex
+    &-text
+        +size(8.2)
+
+    &-title
+        +size(7.2)
+        font-weight: 700
+        font-size: 65px
+
+    &-icon
+        width: 140px
+        height: 140px
+
+    &-title::after
+        width: 140px
+        height: 140px
+        content: ""
+        display: block
+        background: url(/assets/images/png/description-img.png)
+        margin: -90px 0 0 160px
+
+    &-star
+        width: 98px
+        height: 98px
+        margin: -21px 16px 0 -107px
+
+    &-cup
+        +size(4)
+        height: 100%
+
+.description
+    display: flex
+    align-items: center
+    justify-content: space-between
+    +size(12)
+    &-info
+        +size(5.7)
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+
+    &-offer
+        +size(5.2)
+        font-weight: 700
+        font-size: 33px
+
+.info__item 
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 53px
+    background: #1573FF
+    border-radius: 30px
+    font-size: 20px
+    padding: 0 25px
+    margin-top: 9px
+
+.whom
+    width: 100%
+
+
+.about
+    width: 100%
+    &-inner
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        +size(10.6)
+        background: #1573FF
+        border-radius: 20px
+        padding: 43px 56px 73px 50px
+        margin-top: 170px
+
+    &-top
+        width: 100%
+
+    &-title
+        +size(4)
+        font-weight: 700
+        font-size: 48px
+        margin-top: 17px
+
+.images-block
+    width: max-content
+    margin-left: auto
+
+.section-description
+    display: flex
+    align-items: center
+    padding: 0 26px
+    width: max-content
+    height: 45px
+    font-size: 18px
+    border: 1px solid #FFFFFF
+    border-radius: 30px
+    margin-top: 30px
+
+.about-top
+    .section-description 
+        margin: 0
+
+.img__displaced
+    margin-left: -31px
+
+.about-description__item
+    +size(5.6)
+    font-size: 22px
+    font-weight: 700
+    margin-top: 22px
+
+.wrapper-after::after
+    width: 207px
+    height: 207px
+    content: ""
+    display: block
+    background: url(/assets/images/png/description-img.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin: -124px -50px 0 auto
+
+.img-before::before
+    width: 82px
+    height: 82px
+    content: ""
+    display: block
+    background: url(/assets/icons/png/star.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin: -84px -81px 0 auto
+
+.why
+    margin-top: 76px
+    &-title
+        margin-top: 35px
+
+    &-description-items
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        +size(11.5)
+        margin-top: 28px
+        padding-top: 33px
+
+    &-description-item
+        +size(5.5)
+        height: 360px
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        background: #8836AE
+        border-radius: 35px
+        padding-left: 50px
+        margin-top: 10px
+
+.line__up
+    border-top: 2px solid #979797
+
+.why-inner
+.section-description 
+    margin: 0 auto
+
+h1
+    font-weight: 700
+    font-size: 78px
+    text-align: center
+
+p
+    font-size: 16px
+
+.item__subtitle
+    +size(5.5)
+    font-weight: 700
+    font-size: 32px
+    margin-top: 40px
+
+.item__icon
+    width: 130px
+    height: 130px
+    margin: 15px 15px 0 0
+
+.item__text
+    width: 410px
+    line-height: 27px
+
+.yellow-btn  
+    display: block
+    +size(5)  
+    height: 77px
+    background: #F7BA4B
+    border-radius: 100px
+    border: none
+    font-size: 20px
+    font-weight: 700
+    text-transform: uppercase
+    margin: 57px auto 0
+
+
+
+.who
+    &-inner
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        +size(12)
+        margin-top: 146px
+        padding: 17px 0 33px
+
+    &-inner
+    .section-description
+        margin: 20px 0 0 75px
+
+    &-title__icon
+        width: 140px
+        height: 140px
+        margin: 20px -30px 0 0
+
+    &-description 
+        font-weight: 400
+        font-size: 32px
+        color: #FFD262
+        margin-top: 60px
+
+    &-photos
+        +size(4.5)
+        margin-top: 30px
+
+    &-text
+        +size(5.8)
+        font-size: 32px
+        color: #BDBDBD
+        margin-top: 30px
+    &-text__down 
+        margin-top: 60px
+    &-questions
+        +size(10)
+        margin: 24px auto 0
+    &-inner
+    .yellow-btn
+        +size(8.5)
+
+.people-photo
+.images-block
+    margin: 0
+
+.questions__item
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 55px
+    font-size: 20px
+    background: url(/assets/icons/png/background-text.png);
+    background-repeat: no-repeat
+    margin-top: 10px
+
+.questions__left
+    width: 215px
+
+.questions__center
+    width: 430px
+    background-size: 430px 55px
+    margin-left: 215px
+
+.questions__right
+    width: 392px
+    background-size: 392px 55px
+    margin-left: 645px
+
+
+
+.news
+    &-title 
+        margin-top: 42px
+
+    &-inner
+        +size(9.7)
+        margin-top: 20px
+        padding: 20px 0 95px
+        margin: 0 auto
+
+    &-subtitle
+        font-weight: 700
+        font-size: 35px
+        text-align: center
+
+    &-images
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-around
+    
+    &-img
+        width: 480px
+        // +size(5.8)
+        height: 333px
+        border-radius: 20px
+        margin-top: 24px
+
+span
+    color: #FFD773
+
+.news-inner::after
+    width: 380px
+    height: 296px
+    content: ""
+    display: block
+    background: url(/assets/icons/png/purple-cup.png)
+    background-repeat: no-repeat
+    background-size: contain
+    margin: -330px 0 0 -79px
+
+
+
+.organizer
+    &-title
+        +size(5.5)
+        margin: 35px auto
+
+    &-inner
+        +size(11)
+        display: flex
+        flex-wrap: wrap
+        padding: 10px 0 15px
+        margin: 30px auto
+
+    &-subtitle
+        +size(6)
+        font-size: 24px
+        margin-top: 82px
+
+    &-map
+        +size(7.6)
+        +shift-left(-1.45)
+        font-weight: 900
+        font-size: 24px
+        text-align: center
+        position: relative
+
+    &-map__img
+        width: 100%
+
+    &-city
+        width: 37%
+        font-weight: 900
+        font-size: 24px
+        text-align: center
+        letter-spacing: 4px
+        margin: 30%
+        position: absolute
+
+
+.count-block
+    +size(14)
+    display: flex
+    justify-content: space-between
+    z-index: 9
+    margin-top: -252px
+
+.count__item
+    display: flex
+    flex-wrap: wrap
+    +size(3.65)
+    height: 190px
+    background: #1573FF
+    border-radius: 35px
+    padding: 30px 0 0 40px
+    margin-top: 10px
+
+.count-number
+    width: 50%
+    font-weight: 700
+    font-size: 72px
+
+.count-description
+    font-size: 24px
+    margin-bottom: 67px
+
+.count-img
+    width: 56px
+    height: 56px
+    margin: -5px 32px 0 auto
+
+
+.partners
+    &-inner
+        +size(11)
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        margin: 0 auto
+
+    &-inner
+    .section-description  
+        margin: 0
+    
+    &-title
+        font-size: 147px
+        font-weight: 100
+        letter-spacing: -7px
+        line-height: 125px
+        margin: 0
+
+    &-title__img
+        width: 140px
+        height: 140px
+        margin: -40px 187px 0 80px
+
+    &-feedback
+        display: flex
+        +size(12)
+        height: 120px
+        border-radius: 25px
+        background:#8836AE
+        margin-top: 67px
+
+.logos-block 
+    +size(12)
+    display: flex
+    margin-top: 70px
+    display: -webkit-box
+    margin-top: 70px
+    overflow: auto
+
+.logos-block__item
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 230px
+    height: 135px
+    border-radius: 25px
+    margin-right: 3px
+    background: white
+
+.feedback-text
+    width: 50%
+    font-size: 20px
+    letter-spacing: 0.5px
+    margin: 33px 0 0 50px
+
+.feedback__link
+    color:#FF8562
+
+.feedback-img
+    width: 250px
+    height: 250px
+    margin: -80px 50px 0 auto
+
+   
+.registration
+    padding-top: 90px
+    &-form
+        +size(8.3)
+        background: #8836AE
+        border-radius: 35px
+        margin: 50px auto
+
+    &-agreement
+        display: flex
+        +size(9)
+        margin: 30px auto
+
+    &-agreement__item
+        display: block
+        font-weight: 700
+        font-size: 20px
+        margin: 26px auto
+        letter-spacing: -0.3px
+
+.form-title
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 115px
+    font-weight: 700
+    font-size: 50px
+    background: #1573FF
+    border-radius: 35px 
+
+.form-input
+    display: block
+    +size(8.5)
+    height: 82px
+    background: #FDC949
+    border-radius: 20px
+    border: none
+    font-size: 28px
+    padding-left: 22px
+    margin: 39px auto
+
+::-webkit-input-placeholder 
+    color: #191919
+::-moz-placeholder
+    color: #191919
+
+.form-btn
+    display: block
+    +size(5)
+    height: 82px
+    color: white
+    text-transform: uppercase
+    font-weight: 700
+    font-size: 28px
+    border: 2px solid #F7BA4B
+    border-radius: 20px
+    background: #1573FF
+    margin: 0 auto
+
+.agreement__link
+    color: #05F800
+
+.form-checkbox
+    width: 30px
+    margin-right: 17px
+
+.registration-inner::before
+    width: 260px
+    height: 260px
+    content: ""
+    display: block
+    background: url(/assets/icons/png/speaker.png)
+    background-repeat: no-repeat
+    background-size: contain
+    margin: 0 70px -211px auto
+    z-index: 2
+    position: sticky
+
+.registration-inner::after
+    width: 260px
+    height: 260px
+    content: ""
+    display: block
+    background: url(/assets/icons/png/message-icon.png)
+    background-repeat: no-repeat
+    background-size: contain
+    z-index: 2
+    position: sticky
+    margin: -195px 0 0 70px
+
+
+
+.contacts
+    &-inner
+        display: flex
+        +size(12)
+        padding: 94px 0 80px
+
+    &-links
+        display: block
+        +size(6)
+
+    &-address
+        display: block
+        font-weight: 700
+        font-size: 40px
+        margin-top: 70px
+
+    &-tel
+        display: block
+        font-weight: 700
+        font-size: 54px
+        margin-top: 63px
+
+    .contacts-email
+        margin-top: 47px
+
+    &-images
+        display: flex
+        +size(6)
+
+.logo-mini
+    width: 323px
+    height: 70px
+
+.vk-logo
+    width: 66px
+    height: 66px
+    margin-top: 53px
+
+.cup
+    margin-top: 53px
+
+.star-wait
+    margin: auto 0 65px -90px
+    width: 170px
+    height: 170px
+
+.star-right
+    width: 138px
+    height: 138px
+    margin: 134px 0 0 -134px
+
+.star-left
+    width: 77px
+    height: 77px
+    margin: auto -76px 125px 
+    
+
+
+.footer
+    background: rgba(18, 1, 39, 0.6)
+    &-inner
+        +size(12)
+        height: 95px
+        padding-top: 30px
+
+    &-title
+        font-weight: 700
+        font-size: 16px
+        text-align: center
+        margin: 0 auto
+    
+    &-links
+        display: flex
+        align-items: center
+        justify-content: space-around
+        margin-top: 20px
+        padding-top: 20px
+
+
+.rights
+    font-size: 14px
+
